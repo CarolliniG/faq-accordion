@@ -63,14 +63,27 @@ table {
     border-radius: 20px;
     margin-left: 25%;
 }
+.row{
+    margin: 0;
+    padding: 0;
+}
+.row > .col{
+    margin: 0;
+    padding: 0;
+}
 
-.row > img{
+.col>img{
     width: 20px;
     height: 20px; 
+    margin: 0;
+    padding: 0;
+    float: left;
   }
 
-h1{
+.col>h1{
     color: hsl(292, 42%, 14%);
+    float: left;
+    margin: 0;
 }
 
 .accordion-header button{
