@@ -53,9 +53,12 @@ table {
     width: 100%;
     float: left;
 }
-.container{
+.container-md{
     margin-top: 150px;
+    max-width: 540px;
 }
+
+
 .col{
     padding: 20px;
     width: 50%;
@@ -111,7 +114,6 @@ table {
 .accordion-button::after {
     display: none;
 }
-
 
 .accordion-button {
     background-image: url('assets/images/icon-minus.svg');
