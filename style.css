@@ -73,9 +73,10 @@ table {
 }
 
 .col>img{
-    width: 20px;
-    height: 20px; 
-    margin: 0;
+    width: 30px;
+    height: 30px; 
+    margin-left: 30px;
+    margin-top: 10px;
     padding: 0;
     float: left;
   }
@@ -83,7 +84,8 @@ table {
 .col>h1{
     color: hsl(292, 42%, 14%);
     float: left;
-    margin: 0;
+    margin-left: 15px;
+    padding: 0;
 }
 
 .accordion-header button{
@@ -104,3 +106,24 @@ table {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/* Remove o ícone padrão do Bootstrap */
+.accordion-button::after {
+    display: none;
+}
+
+
+.accordion-button {
+    background-image: url('assets/images/icon-minus.svg');
+    background-repeat: no-repeat;
+    background-position: center right; 
+    background-size: 20px 20px; 
+  }
+  
+  .accordion-button.collapsed {
+    background-image: url('assets/images/icon-plus.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 20px 20px;
+  }
+  
